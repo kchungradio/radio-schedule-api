@@ -9,7 +9,7 @@
     "googleapis": "24",
     "html-to-text": "^5.1.1",
     "micro": "^9.1.4",
-    "moment-timezone": "^0.5.14",
+    "moment-timezone": "^0.5.35",
     "now-micro": "^0.4.0",
     "validator": "^12.1.0"
   },
