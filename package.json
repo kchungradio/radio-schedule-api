@@ -1,29 +1,29 @@
 {
   "name": "kchungradio-schedule-api",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "KCHUNG Schedule API for http://www.kchungradio.org/schedule.html",
   "repository": "kchungradio/schedule-api",
   "author": "Tim Phillips <tim@kchungradio.org>",
   "license": "MIT",
   "dependencies": {
-    "googleapis": "39",
-    "html-to-text": "^5.1.1",
-    "micro": "^9.1.4",
-    "moment-timezone": "^0.5.14",
-    "now-micro": "^0.4.0",
-    "validator": "^12.1.0"
+    "googleapis": "132.0.0",
+    "html-to-text": "9.0.5",
+    "micro": "9.4.1",
+    "moment-timezone": "0.5.45",
+    "now-micro": "0.4.0",
+    "validator": "13.11.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.7.1",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "micro-dev": "^3.0.0",
-    "prettier": "^1.19.1"
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "micro-dev": "3.1.0",
+    "prettier": "3.2.5"
   },
   "scripts": {
     "start": "micro",
-    "dev": "source ./lib/auth/env_secrets.sh && micro-dev -p 1630",
+    "dev": "micro-dev -p 1630",
     "inspect": "source ./lib/auth/env_secrets.sh && npx -n --inspect micro-dev -p 1630",
     "lint": "eslint .",
     "pretty": "prettier --check '**/*.js'"
